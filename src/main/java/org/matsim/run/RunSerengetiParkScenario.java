@@ -35,7 +35,7 @@ import org.matsim.core.scenario.ScenarioUtils;
 import org.matsim.lanes.Lane;
 import org.matsim.lanes.LanesFactory;
 import org.matsim.lanes.LanesToLinkAssignment;
-import org.matsim.prepare.CreatePopulation;
+import org.matsim.prepare.population.CreatePopulation;
 
 import java.io.IOException;
 import java.util.Arrays;
