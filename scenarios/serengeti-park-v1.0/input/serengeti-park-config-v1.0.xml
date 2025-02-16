@@ -12,7 +12,7 @@
 		<param name="routingAlgorithmType" value="Dijkstra"/>
 	</module>
 	<module name="global" >
-		<param name="coordinateSystem" value="EPS:25832" />
+		<param name="coordinateSystem" value="EPSG:25832" />
 		<param name="insistingOnDeprecatedConfigVersion" value="false" />
 		<param name="numberOfThreads" value="8" />
 	</module>
@@ -53,32 +53,32 @@
 	</module>
 	<module name="strategy" >
 		<param name="fractionOfIterationsToDisableInnovation" value="0.8" />
-		<parameterset type="strategy settings" >
+		<parameterset type="strategysettings" >
 			<param name="strategyName" value="ChangeExpBeta" />
 			<param name="subpopulation" value="serengetiParkplatz" />
 			<param name="weight" value="0.9" />
 		</parameterset>
-		<parameterset type="strategy settings" >
+		<parameterset type="strategysettings" >
 			<param name="strategyName" value="ReRoute" />
 			<param name="subpopulation" value="serengetiParkplatz" />
 			<param name="weight" value="0.1" />
 		</parameterset>
-		<parameterset type="strategy settings" >
+		<parameterset type="strategysettings" >
 			<param name="strategyName" value="ChangeExpBeta" />
 			<param name="subpopulation" value="wasserlandParkplatz" />
 			<param name="weight" value="0.9" />
 		</parameterset>
-		<parameterset type="strategy settings" >
+		<parameterset type="strategysettings" >
 			<param name="strategyName" value="ReRoute" />
 			<param name="subpopulation" value="wasserlandParkplatz" />
 			<param name="weight" value="0.1" />
 		</parameterset>
-		<parameterset type="strategy settings" >
+		<parameterset type="strategysettings" >
 			<param name="strategyName" value="ChangeExpBeta" />
 			<param name="subpopulation" value="serengetiPark" />
 			<param name="weight" value="0.9" />
 		</parameterset>
-		<parameterset type="strategy settings" >
+		<parameterset type="strategysettings" >
 			<param name="strategyName" value="ReRoute" />
 			<param name="subpopulation" value="serengetiPark" />
 			<param name="weight" value="0.1" />
