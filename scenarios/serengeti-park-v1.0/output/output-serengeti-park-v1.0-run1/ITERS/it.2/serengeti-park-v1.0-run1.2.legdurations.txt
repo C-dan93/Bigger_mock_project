@@ -1,0 +1,6 @@
+pattern	0+	5+	10+	15+	20+	25+	30+	35+	40+	45+	50+	55+	60+
+car interaction---car interaction	0	4	29	26	23	35	41	31	41	45	38	48	1987
+car interaction---park	2348	0	0	0	0	0	0	0	0	0	0	0	0
+home---car interaction	2348	0	0	0	0	0	0	0	0	0	0	0	0
+
+average leg duration: 3118.9020442930155 seconds = 00:51:58
