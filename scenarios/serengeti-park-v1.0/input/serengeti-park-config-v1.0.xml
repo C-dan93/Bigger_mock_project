@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE config SYSTEM "http://www.matsim.org/files/dtd/config_v2.dtd">
 <config>
-	<module name="controller" >
+	<module name="controler" >
 		<param name="lastIteration" value="2" />
 		<param name="overwriteFiles" value="deleteDirectoryIfExists" />
 		<param name="runId" value="serengeti-park-v1.0-run1" />
@@ -29,7 +29,7 @@
 	<module name="transit" >
 		<param name="useTransit" value="false" />
 	</module>
-	<module name="precalculates" >
+	<module name="planscalcroute" >
 		<param name="networkModes" value="car" />
 		<parameterset type="teleportedModeParameters" >
 			<param name="beelineDistanceFactor" value="1.3" />
